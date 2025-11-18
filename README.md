@@ -113,6 +113,7 @@ EnvPress sets up a WordPress instance using a collection of environment variable
 | `SALT_SECURE_AUTH_SALT` | Cryptographically strong and random key | `put your uni…` |
 | `SALT_LOGGED_IN_SALT` | Cryptographically strong and random key | `put your uni…` |
 | `SALT_NONCE_SALT` | Cryptographically strong and random key | `put your uni…` |
+| `ADMIN_EMAIL` | Force a WordPress admin email address | WordPress managed |
 | `ADMIN_SUPPORT_NAME` | Support contact name | Empty |
 | `ADMIN_SUPPORT_URL` | Support contact website URL | Empty |
 | `ADMIN_DASHBOARD_DISABLE` | CSV of dashboard widget ids to be disabled | Empty |
