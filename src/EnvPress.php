@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace EnvPress;
 
 use EnvPress\Exception\InvalidDotenvException;
+use EnvPress\Layer\AdminEmailLayer;
 use EnvPress\Layer\AdminLayer;
 use EnvPress\Layer\ConstLayer;
 use EnvPress\Layer\DebugLayer;
@@ -92,7 +93,8 @@ class EnvPress {
             MailLayer::create(),
             FeatureLayer::create(),
             TrackingLayer::create(),
-            AdminLayer::create()
+            AdminLayer::create(),
+            AdminEmailLayer::create()
         ]);
     }
 
