@@ -67,6 +67,7 @@ This package is designed to simplify the configuration process and lessen the ma
     <?php
     require_once dirname(__DIR__) . '/vendor/autoload.php';
     \EnvPress\EnvPress::createWithBedrockDefaults(__DIR__)->bootstrap();
+    $table_prefix = $GLOBALS['table_prefix'] ?? 'wp_';
     require_once ABSPATH . 'wp-settings.php';
     ```
 
